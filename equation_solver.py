@@ -64,6 +64,6 @@ for i in range(n):
     print("Format: 3x+5y-7z=16 , Input: 3 5 -7 16")
     print()
     I.append([0]+list(map(int,input().split())))
-    print(I)
+    #print(I)
 get_variable(compute_solns(I))
 
